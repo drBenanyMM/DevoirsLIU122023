@@ -1,0 +1,39 @@
+{% extends "base.html" %} 
+{% block titre %}Page d'accueil{% endblock titre %}
+{% block content %}  
+
+
+
+
+
+
+
+
+
+    <UL>
+        <LI >
+            A        
+        </LI>
+        <LI>
+            B
+        </LI>
+        <LI>
+            C
+        </LI>
+    </UL>
+
+
+
+
+  
+
+    
+    <H1>Personnes</H1>
+    {% for Products in  Products %}
+        <H2>{{Products.name}}</H2>
+        <P>{{Products.price}}</P>
+        <SPAN>{{Products.description}}</SPAN>
+    {% endfor %}
+
+    
+{% endblock content %}  

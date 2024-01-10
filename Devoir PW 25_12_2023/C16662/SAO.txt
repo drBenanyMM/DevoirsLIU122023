@@ -1,0 +1,20 @@
+1-Définition de SAO :
+
+SAO signifie "Service Oriented Architecture" (Architecture Orientée Services).
+C'est un style d'architecture logicielle qui favorise la création de services indépendants, interopérables et réutilisables.
+Architecture de Service Web SAO :
+
+2-Les services web SAO suivent généralement une architecture basée sur les standards tels que SOAP (Simple Object Access Protocol) ou REST (Representational State Transfer).
+L'architecture SAO implique la création de services autonomes qui communiquent via des interfaces standardisées.
+Étapes d'appel pour un service web de type SOAP :
+
+3- Enveloppe : Encapsuler la demande dans une enveloppe SOAP.
+Transport : Spécifier le protocole de transport (HTTP, SMTP, etc.).
+Adressage : Indiquer l'adresse du service web.
+Envoi : Transmettre la demande au service web.
+Réception : Attendre la réponse du service web.
+Désenveloppement : Extraire les données de la réponse SOAP.
+Traitement : Utiliser les données dans l'application cliente.
+
+
+

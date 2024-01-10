@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact - Université Libanaise</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="LIU Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter :</p>
+        <ul>
+            <li>Email: info@universite-libanaise.edu.lb</li>
+            <li>Téléphone: +222 30 42 34 09</li>
+            <li>Adresse: Rue de l'Université, Soukouk, Nouackhott</li>
+        </ul>
+        <p>Remplissez le formulaire ci-dessous pour nous envoyer un message :</p>
+        <form action="traitement_contact.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Lebanese International University</p>
+    </footer>
+</body>
+</html>

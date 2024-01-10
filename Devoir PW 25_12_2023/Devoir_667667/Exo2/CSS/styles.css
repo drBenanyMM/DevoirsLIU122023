@@ -1,0 +1,57 @@
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; 
+}
+
+
+/* Styles pour la barre de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #009688; 
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #004d40; 
+    color: white;
+}
+
+/* Styles pour l'en-tête (header) */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+}
+header ul {
+    list-style-type: none;
+}
+#university-logo img {
+    height: 100px; 
+}
+
+/* Styles pour le pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d40; 
+    color: white;
+}

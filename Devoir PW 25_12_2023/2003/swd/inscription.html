@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <title>inscription</title>
+   
+</head>
+
+<body>
+    <script>
+    function validateForm() {
+
+        if (matricule === "" || nom === "" || filiere === "") {
+            alert("Les champs matricule, nom et filière sont obligatoires");
+            return false;
+        }
+    }
+    </script>
+<header>
+<div class="navbar">
+ <nav>
+<ul>
+ <li><a href="index.html">Accueil</a></li>
+ <li><a href="inscription.html">Inscription</a></li>
+  <li><a href="programme.html">Programme</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
+ <section>
+    <div>
+        <form="" action="traitement.php"  onsubmit="return validateForm()" method="post">    </form>     
+        <label>Matircule :</label>
+        <input type="text" Matircule=Matircule>
+        <label>Nom : </label>
+        <input type="text" Nom=Nom values="">
+        <label>Prenom :</label>
+        <input type="text" Prenom=Prenom values="">
+        <label>email :</label>
+        <input type="text" email=email values="">
+        <label>filiere :</label>
+        <input type="text" filiere=filiere values="">
+        <input type="submit" values="entrer" >
+   
+    </div>
+</section>
+
+<aside >
+  
+</aside>
+
+<footer>
+    <div class="foot">
+        <p> 2023 Université Libanaise</p>
+    </div>
+</footer>
+</body>
+
+</html>

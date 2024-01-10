@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang = "fr">
+
+<head>
+  <meta charset = "UTF-8">
+</head>
+
+<title> Page web statique </title>
+
+<body>
+
+<table border = "1">
+  <tr>
+     <td colspan = "3" > Enseignement obligatoire </td> 
+     
+  </tr>
+<tr>
+     <td> Mathématiques </td>
+     <td> Sc. Physiques </td>
+     <td> SVT </td>
+  </tr>
+
+  
+<tr>
+     <td> I.S.N </td>
+     <td> Maths </td>
+     <td> Sc.Physiques </td>
+     <td> S.V.T </td>
+  </tr>
+
+</table>

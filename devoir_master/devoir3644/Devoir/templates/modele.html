@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}   modeles  {%endblock%}
+
+{% block content %}      
+   liste des modeles
+   <table >    
+    <tr>  
+      <th> name </th>   
+      <th> price </th> 
+      <th> descriptiono</th>
+    </tr> 
+ 
+   {% for m in model %}
+   <tr>  
+    <td>  
+     {{m.name}}
+    </td>  
+    <td>  
+     {{m.price}}00000000
+    </td> 
+    <td>  
+        {{m.model}}
+       </td>  
+  </tr>
+   {% endfor %} 
+  
+  
+  </table>
+{% endblock %} 

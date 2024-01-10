@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <div class="header">
+        <a href="#default" class="logo">Universite Tech</a>
+        <div class="header-right">
+          <a  href="inscription.html">Acceuil</a>
+          <a href="Contact.html">Nos Contact</a>
+          <a class="active"  href="inscription.html">Inscription</a>
+        </div>
+      </div>
+
+<div class="bg-img">
+    <form action="traitement.php" class="container" method="get" onsubmit="return validateForm()">
+      <h1>Inscription</h1>
+
+     <label for="Matricule"><b>Matricule</b></label>
+      <input type="text" placeholder="Votre Matricule" name="Matricule">
+      
+      <label for="Nom"><b>Nom</b></label>
+      <input type="text" placeholder="Votre Nom" name="Nom" >
+
+      <label for="Prenom"><b>Prenom</b></label>
+      <input type="text" placeholder="Votre Prenom" name="Prenom" >
+
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" >
+  
+
+     <label for="Filiere"><b>Filiere</b></label>
+      <input type="text" placeholder="Filiere" name="Filiere" >
+  
+      <button type="submit" class="btn">submit</button>
+    </form>
+  </div>
+</body>
+</html>

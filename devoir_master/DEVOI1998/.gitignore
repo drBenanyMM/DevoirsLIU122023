@@ -1,0 +1,11 @@
+# Environnement virtuel
+venv/
+
+# Fichiers générés par Django
+__pycache__/
+*.pyc
+*.pyo
+*.db
+
+# Fichiers spécifiques à votre IDE (par exemple, pour VSCode)
+.vscode/

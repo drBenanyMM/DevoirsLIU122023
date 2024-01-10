@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function validateForm() {
+            var matricule = document.getElementById("matricule").value;
+            var nom = document.getElementById("nom").value;
+            var filiere = document.getElementById("filiere").value;
+
+            if (matricule === "" || nom === "" || filiere === "") {
+                alert("Veuillez remplir tous les champs obligatoires.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+    <title>Inscription - Université Libanaise</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="LIU Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Formulaire d'inscription</h2>
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
+            <label for="matricule">Matricule :</label>
+            <input type="text" id="matricule" name="matricule" required>
+            <br>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="filiere">Filière :</label>
+            <input type="text" id="filiere" name="filiere" required>
+            <br>
+            <input type="submit" value="S'inscrire">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Lebanese International University</p>
+    </footer>
+</body>
+</html>

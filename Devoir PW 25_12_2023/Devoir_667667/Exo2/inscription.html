@@ -1,0 +1,67 @@
+
+<!-- La page d'inscription contient un formulaire pour les étudiants -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/script.js" defer></script>
+    <title>Inscription - Université Libanaise</title>
+</head>
+
+<body>
+    <header>
+        <ul> <li>
+        <!-- Logo de l'université à côté du nom -->
+        <div id="university-logo">
+            <img src="Ressources/Images/LIU.png" alt="Logo de l'Université Libanaise">
+        </div>
+        <div>
+            <h1>Inscription a L'Universite Libanaise</h1>
+        </div>
+        </li>
+        <li>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2>Formulaire d'Inscription</h2>
+        <!-- Formulaire avec des champs obligatoires et validation JavaScript -->
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
+            <label for="matricule">Matricule:</label>
+            <br>
+            <input type="text" id="matricule" name="matricule" >
+<br><br>
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" >
+            <br><br>
+            <label for="prenom">Prénom:</label><br>
+            <input type="text" id="prenom" name="prenom">
+            <br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="filiere">Filière:</label><br>
+            <input type="text" id="filiere" name="filiere" >
+            <br><br>
+            <input type="submit" value="Soumettre">
+            <br><br>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Université Libanaise</p>
+    </footer>
+</body>
+
+</html>
